@@ -1,21 +1,32 @@
-Express-CSV API for Scala.js
+ExpressCSV API for Scala.js
 ================================
-This is a Scala.js type-safe binding for [express-csv](https://www.npmjs.com/package/express-csv)
+[express-csv](https://www.npmjs.com/package/express-csv) provides response csv easily to express.
 
-`express-csv` provides response csv easily to express.
+### Description
 
-#### Build Dependencies
+<pre>
+ _____                                 ____ ______     __
+| ____|_  ___ __  _ __ ___  ___ ___   / ___/ ___\ \   / /
+|  _| \ \/ / '_ \| '__/ _ \/ __/ __| | |   \___ \\ \ / / 
+| |___ >  <| |_) | | |  __/\__ \__ \ | |___ ___) |\ V /  
+|_____/_/\_\ .__/|_|  \___||___/___/  \____|____/  \_/   
+           |_|                                                      
+</pre>
 
-* [ScalaJs.io v0.3.x](https://github.com/ldaniels528/scalajs.io)
+Express CSV provides response CSV easily to Express.
+
+### Build Dependencies
+
+* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
-#### Build/publish the SDK locally
+### Build/publish the SDK locally
 
 ```bash
  $ sbt clean publish-local
 ```
 
-#### Running the tests
+### Running the tests
 
 Before running the tests the first time, you must ensure the npm packages are installed:
 
@@ -29,7 +40,7 @@ Then you can run the tests:
 $ sbt test
 ```
 
-#### Examples
+### Examples
 
 ##### A simple Express Server with CSV
 
@@ -66,7 +77,7 @@ Http.get("http://localhost:8080/", { response: ServerResponse =>
 })
 ```
 
-#### Artifacts and Resolvers
+### Artifacts and Resolvers
 
 To add the `ExpressCSV` binding to your project, add the following to your build.sbt:  
 
