@@ -17,7 +17,6 @@ Express CSV provides response CSV easily to Express.
 
 ### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
@@ -82,7 +81,7 @@ Http.get("http://localhost:8080/", { response: ServerResponse =>
 To add the `ExpressCSV` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "express-csv" % "0.6.0"
+libraryDependencies += "io.scalajs.npm" %%% "express-csv" % "0.6.0-2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:

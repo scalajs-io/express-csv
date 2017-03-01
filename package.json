@@ -1,6 +1,6 @@
 {
   "name": "express-csv-sjs",
-  "version": "0.6.0",
+  "version": "0.6.0-2",
   "private": true,
   "dependencies": {
     "express": "^4.14.1",
