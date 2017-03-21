@@ -81,7 +81,7 @@ Http.get("http://localhost:8080/", { response: ServerResponse =>
 To add the `ExpressCSV` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "express-csv" % "0.6.0-3"
+libraryDependencies += "io.scalajs.npm" %%% "express-csv" % "0.6.0-4"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
