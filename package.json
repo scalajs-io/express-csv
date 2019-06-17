@@ -1,10 +1,10 @@
 {
   "name": "express-csv-sjs",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "private": true,
   "dependencies": {
-    "express": "^4.14.1",
+    "express": "^4.17.1",
     "express-csv": "^0.6.0",
-    "source-map-support": "^0.4.14"
+    "source-map-support": "^0.5.12"
   }
 }
